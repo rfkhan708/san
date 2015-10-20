@@ -1,0 +1,119 @@
+git init
+================Remote
+git remote add origin https://github.com
+=========================chacke remote rarne ke lia
+git remote -v
+
+=====================delete remote
+git remote remove origin
+=================================
+git status
+================= comit ko read krna
+git add sp.text
+git add --all
+--------or
+git add .
+================== comit se baher krna
+git rm --cached sp.text
+==========================================
+.gitignore
+===================================config
+git config --global user.name "sssssss"
+git config --global user.email "sp@gmail.com"
+==================================================status ko comit kerna============
+git commit -m "Initial commit"
+===============================log
+git log
+=========================== push
+git remote -v
+==
+git push -u origin master
+
+
+
+=================================================SSH
+git ka cmd open kro
+--
+ssh-keygen -t rsa -c "sp@gmai.com"
+--
+cd .ssh
+--
+clip < ip_rsa.pub
+----
+notepade per coppy ker do------
+--
+github per jao---settings -- SSH Keys per click kro------add ssh key
+--
+Title--Win7VirtualMachine
+--
+Key --Past
+----
+confirm Password
+--
+gitHub-Learning (jo app ka hoga)--ko open kro---righit hand shid me https ssh--cick--kro--Coppy--
+--cmd(app  na wala foder me aajate hai--delete https
+--
+git remote remove  origin
+---
+git remote add orgin (past)ssh url
+--
+git add --al
+--
+git status
+--
+git commit -m "ram.text file added"
+--
+git push orgin master
+--
+yes
+===================================================================================BRANCH=======
+git branch
+---
+git branch mybranch
+---branch switched kerna--
+git checkout  mybranch
+---
+git checkout -b newbranchName
+--
+git checkout master
+========
+echo > spsingh.txt
+--
+git status
+--
+git add spsingh.txt
+---
+git status
+---
+git commit -m "new spsingh.txt added"
+--
+git push orgin newbranchName
+--
+git merge newbran12 
+--
+git push myorgin mybranch
+=====================================================CLOne
+new folder create
+--cmd
+git clone url past(ssh)
+==========================
+Fork
+
+
+========================================GITHUB ==============
+
+echo # Document >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/spsinghdocument/Document.git
+git push -u origin master
+
+
+
+…or push an existing repository from the command line
+
+
+git remote add origin https://github.com/spsinghdocument/Document.git
+git push -u origin master
+=======================================================
